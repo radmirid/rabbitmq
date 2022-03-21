@@ -1,5 +1,5 @@
-module github.com/GOLANG-NINJA/mq-app
+module github.com/radmirid/rabbitmq
 
 go 1.17
 
-require github.com/streadway/amqp v1.0.0 // indirect
+require github.com/streadway/amqp v1.0.0

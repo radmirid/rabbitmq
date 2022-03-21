@@ -1,13 +1,27 @@
-# Simple RabbitMQ client & server example
+# RabbitMQ
 
-In order to run RabbitMQ you can use docker:
+Server and client based on RabbitMQ.
 
-`docker run -it --rm --name rabbitmq -p 5672:5672 rabbitmq`
+## Installing
 
-Start server (sender):
+```
+go get github.com/radmirid/rabbitmq
+```
 
-`go run cmd/server/server.go`
+## Running
 
-Start client (reciever): 
+`Server`
 
-`go run cmd/client/client.go`
+```
+go run cmd/server/server.go
+```
+
+`Client`
+
+```
+go run cmd/client/client.go
+```
+
+## LICENSE
+
+[MIT License](LICENSE)
